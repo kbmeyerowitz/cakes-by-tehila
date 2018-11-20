@@ -1,0 +1,231 @@
+
+
+body {
+	background-color: #FFFFF1;/*#fffde7;
+	/*background-image: url("images/threetierflower.jpg");
+	/*background-image: url("images/welcomebabygirl.png");*/
+	/*background-image: url("images/Shabboscupcakesandcake4.jpg");*/
+	/*background-size: cover;
+	background-attachment: fixed;
+
+/*images/flowersonbarrelcropped.png*/
+}
+
+/*begin logo*/
+#logo {
+	background-color: #6699cc;
+	color: white;
+	max-width: 100%;
+	text-align: center;
+}
+/*end logo*/
+
+/*begin motto*/
+.container_motto {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5em;
+	font-family: Garamund;
+	color: black;
+	text-shadow: 1px 1px 8px #4B4B49;
+	font-size: 1.3em;
+	letter-spacing: 1.5px;
+	margin: 50px;
+
+}
+
+@media all and (min-width:480px) and (max-width:860px) {  
+	.container_motto {
+	flex-direction: column;
+	font-size: 1.5em;
+	}
+}
+
+@media all and (min-width:861px) and (max-width:1600px) {  
+	.container_motto {
+	font-size: 2.5em;
+	flex-direction: row;
+	justify-content: center;
+	}
+}
+/* end motto*/
+
+/*begin nav-bar*/
+.colorstrip  {
+		background-color: /*black;*/ #fae073; /*#F8D134; /*pink*/
+		max-width: 100%;
+		max-height: 17vh;
+		padding: 15px;
+		margin: 0px;
+}
+
+.nav-bar {
+	max-width: 100%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 1.25em;
+
+}
+
+.nav-bar a {
+	color: black; /*white;*/
+
+}
+
+.nav-bar a:hover {
+	color: #4F5F97;
+	text-decoration: none;
+	
+}
+/*end nav bar*/
+
+
+.homepagecake1 {
+	width: 100vw;
+	padding-top: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	top: -50px;
+	
+}
+
+.homepagecake {
+	width: 100%;
+	height: auto;
+		
+}
+
+.occasions {
+	display: flex;
+	flex-position: column;
+	position: relative;
+	z-index: 1;
+	color: black;
+	background-color: #FFFFF1; /*#8aabbb lightblue;/*#455A77darkerbluegray; /*#fae385;yellow*/
+	font-family: Cookie;
+	font-size: 1.5em;
+
+}
+
+.occasions a {
+	font-family: Cookie;
+	text-align: center;
+}
+
+
+.superhero {
+	display: inline block;
+	text-align: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	position: absolute;
+	top: 0px;
+	width: 50vw;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+	transition: transform .2s;
+	
+}
+
+.superhero:hover {
+	transform: scale(1.15);
+}
+
+
+.wedding {
+	display: inline block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	position: absolute;
+	top:150px;
+	width: 50vw;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+	transition: transform .2s;
+}
+
+.wedding:hover {
+	transform: scale(1.15);
+}
+
+.bar {
+	display: inline block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	position: absolute;
+	top: 300px;
+	width: 45vw;
+	/*border-radius: 50%;*/
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+	transition: transform .2s;
+
+}
+
+.bar:hover {
+	transform: scale(1.15);
+}
+
+.upsherin {
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: inline-block;
+	position: absolute;
+	top: 450px;
+	width: 50vw;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+	transition: transform .2s;
+	}
+
+.upsherin:hover {
+	transform: scale(1.15);
+}
+
+.caption_birthday {
+
+		
+}
+
+.caption_weddings {
+	
+}
+
+.caption_barmitzvah {
+	
+}
+
+.caption_specialty {
+	
+}
+
+/*trying to get this pop-out menu!*/
+ul.menu {
+display: block;
+list-style-type: none;
+
+}
+
+ul.menu li {
+	position: absolute;
+	left: 160px;
+	top: -10px;
+	z-index: 10;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul.menu li:hover {
+	display: block;
+}
+
+#scrollup {
+	position: absolute;
+	bottom: -400px;
+	right: 700px;
+}
+/* end of pop-out menu*/
+
