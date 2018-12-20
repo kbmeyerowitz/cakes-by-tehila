@@ -6,40 +6,66 @@
   	<meta name="description" content="">
   
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="mystyle2.css">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
+	
+	
 
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Ramabhadra|Ruda:700" rel="stylesheet">  
 
 </head>
 
 <header>
+   <img class="logo" src="images_new/Cakes By Tehila logo.png">
+
+</header>
+<!--
+<header1>
 	<div class="container">
 		<div id="logo">
-			<span style="font-family:Cookie; font-size:2em">Tehila's Cakes</span>
-		</br>
-			At The Rolings Bakery
+			<img class="logo-cake" src="images_new/free clip art cake4.png">
+			<div id="cakes-by-tehila" span style="font-family:Cookie; font-size:3em">Cakes by <div id="tehila">Tehila</div></span>
+			</br>
+				<div class="rolings-bakery"><div id="at">at Roling's Bakery</div> 
+				<a href="tel:215-635-5524">215-635-5524</a>
+				</div>
 		</div>
 	</div>
-  
-</header>
+</header1>
+-->
+
+
 <body>
-
-
-
-<div class="colorstrip">
-	<div class="nav-bar">
-		<a href="tehila2.html">Home</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="##">Image Gallery</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="pricelist.html" target="_blank">Prices</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="tel:215-635-5524">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="http://www.rolingsthebakery.com" target="_blank">The Rolings Bakery</a>
-	<div>
-</div>
-<!--end of nav bar-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+	<!--<a href="" class="navbar-brand">Tehila's Cakes</a>-->
+	<button class="navbar-toggler" data-toggle="collapse" data-target="#myNav">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="myNav">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Image Gallery</a>
+			</li>
+			<li class="nav-item">
+				<a href="pricelist.html" target="_blank" class="nav-link">Prices</a>
+			</li>
+			<!----<li class="nav-item">
+				<a href="tel:215-635-5524" class="nav-link active">215-635-5524</a>
+			</li>-->
+			<li class="nav-item">
+				<a href="http://www.rolingsthebakery.com/" target="_blank" class="nav-link">The Roling's Bakery</a>
+			</li>
+		</ul>
+	</div>
+</nav>
 
 <div class="homepage">
 
@@ -48,49 +74,45 @@
 		<p class="motto2">For All Occasions</p>
 	</div>
 
-		<div class="homepagecake1">
-			<img class="homepagecake" src="images_new/threetierflowerFULL.jpg">
-		</div>
-		
+	<div class="homepagecake1">
+			<img class="homepagecake" src="images_new/flowerthreetier.png">
+	</div>
+</div>
+<!--start section showing list of special occasions cakes are made for-->
+<div class="picture_container">	
 		<div class="occasions">
-			<div class="superhero">
-				<img class="superhero" src="images/superherobirthdaynobackground.png">
-				<div class="caption_birthday">Birthdays</div>
+			<div class="cake-link">
+				<img class="superhero_image" src="images_new/Birthdays/superherobirthdaywhitebackground.png">
+				<p><a href="gallery.html" target="_blank">Birthdays</a></p>
 			</div>
 			
-			<div class="wedding">
-				<img class="wedding" src="images/weddingcake.png">
-				<div class="caption_weddings">Weddings</div>
+			<div class="cake-link">
+				<img class="wedding_image" src="images_new/Weddings/weddingcake.png">
+				<p><a href="gallery.html" target="_blank">Weddings</a></p>
 			</div>
+		
 
-			<div class="bar">	
-				<img class="bar" src="images/barmitzvah.png">
-				<div class="caption_barmitzvah">Bar/Bas Mitzvahs</div>
+			<div class="cake-link">	
+				<img class="bar_image" src="images_new/Bar Bas Mitzvah/sefarim_nobackground_cropped.png">
+				<p><a href="gallery.html" target="_blank">Bar/Bas Mitzvahs</a></p>
 			</div>
 				
-			<div class="upsherin">	
-				<img class="upsherin" src="images/upsherincakeazaryahnobackground.png">
-					<ul class="menu">
-				        <li><a class="menu" href="coffeemakers.html">Graduation</a></li>
-				        <li><a class="menu" href="gourmetbeans.html">Upsherin</a></li>
-				        <li><a class="menu" href="filtersandcups.html">Baby Naming</a></li>
-				    </ul>
-				 </div>
-				<div class="caption_specialty">Specialty</div>			
-				
+			<div class="cake-link">	
+				<img class="upsherin_image" src="images_new/Other Simchas/upsherincakeazaryahnobackground.png">
+				<p><a href="gallery.html" target="_blank">Specialty</a></p>			
+			</div>	
 		</div>
 </div>
-
-
-
-
 
 <div id="scrollup">
 <a href="#Deliciously">top</a>
 <hr/>
-<div>
+</div>
 
-		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
 
