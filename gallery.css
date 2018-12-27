@@ -1,0 +1,36 @@
+/* with bootstrap
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: left;
+}
+*/
+
+/*with Christina styling
+        width: 100%;
+        margin: 0 auto;
+}
+}*/
+
+.img {
+    width: 75%;
+}
+
+.gallery1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.gallery2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.individual-picture {
+  
+
