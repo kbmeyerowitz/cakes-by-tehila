@@ -1,0 +1,56 @@
+/* with bootstrap
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: left;
+}
+*/
+
+/*with Christina styling
+        width: 100%;
+        margin: 0 auto;
+}
+}*/
+
+body {
+    background-color: #FAEDD3;
+}
+
+
+.image {
+    position: relative;
+        height:200px;
+        width: 190px;
+        overflow: hidden;
+        background-color: white;
+}
+  
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 200px;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  display: table;
+  display:inline-block;
+
+}
+.allRows{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  border-radius: 3px;
+ }	 
+  
