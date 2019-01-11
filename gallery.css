@@ -15,22 +15,650 @@
 }
 }*/
 
-.img {
-    width: 75%;
+body {
+    background-color: #FFFFF2;
+    background-image: url("images/decorativecupcakes.png");
 }
 
+/*img {
+    max-width: 100%;
+    height: auto;
+}*/
+
+/*start header*/ 
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	top: 0px;
+	left: 35px;
+}
+
+/*end header*/
+
+/*begin navbar*/
+.navbar {
+	width: 73.5%;
+	margin: 0 auto;
+}
+
+.nav-item {
+	padding: 2px;
+	padding-left: 5px;
+		
+}
+
+.navbar-nav {
+	margin: 0 auto;
+} 
+
+/*end navbar*/
+
 .gallery1 {
+    /*width: 100%;*/
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+       
+}
+
+.gallery1_a {
+    /*width: 100%;*/
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+       
 }
 
 .gallery2 {
+    /*width: 100%;*/
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery2_a {
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
+
+.gallery3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery4_a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+
+.gallery5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gallery7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .individual-picture {
-  
+    max-width: 115%;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #FFFFF2;
+   
+}
 
+
+.caption {
+    text-align: center;
+    
+}
+
+/*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
+.category_one   {
+    text-align: center;
+    position:relative;
+    left:30px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+
+.category_two {
+    text-align: center;
+    position:relative;
+    left:30px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+
+.category_three {
+    text-align: center;
+    position:relative;
+    left:30px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+}
+
+.category_four {
+    text-align: center;
+    position:relative;
+    left:30px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+
+}
+
+.category_five {
+    text-align: center;
+    position:relative;
+    left:30px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+
+}
+
+
+.category_six {
+    text-align: center;
+    position:relative;
+    left:33px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+
+}
+
+
+/*styling individual images*/
+/*Bar and Bas Mitzvah*/
+.torah_cake {
+    max-width: 300%;
+    position: relative;
+    left: -50px;
+}
+
+.torah_cake_2 {
+    max-width: 120%;
+}
+
+.blue_sefarim {
+    max-width: 135%;
+    position: relative;
+    left: -15px;
+
+}
+
+.brown_sefarim {
+    max-width: 140%;
+}
+
+.gold_bat_mitzvah  {
+    max-width: 140%;
+}
+
+.crown {
+    max-width: 125%;
+
+}
+
+/*Birthday*/
+.bob  {
+    max-width: 135%;
+}
+
+.suzie  {
+    max-width: 135%;
+}
+
+.azaryah  {
+    max-width: 110%;
+}
+
+.spiderman2{
+    max-width: 120%;
+        
+}
+
+.car {
+    max-width: 165%;
+    position: relative;
+    left: -20px;
+
+}
+
+.sports {
+    max-width: 155%;
+
+}
+
+
+/*Wedding and Anniversary*/
+.wedding {
+    max-width: 150%;
+}
+
+.flower {
+    max-width: 120%;
+}
+
+.blue_anniversary_cake  {
+    max-width: 125%; 
+}
+
+
+
+
+/*Other Simchas*/
+.welcome_baby_girl   {
+    max-width: 120%;
+}
+
+.welcome_baby_boy  {
+    max-width: 125%;
+
+}
+
+.rabbi {
+   max-width: 135%;
+
+}
+
+
+/*And and ALl Occasion*/
+.barrel  {
+    max-width: 125%;
+}
+
+.bon_voyage  {
+    max-width: 135%;
+}
+
+.retirement_cake {
+    max-width: 105%;
+}
+
+
+/*School Celebrations*/
+.one_hundred_days  {
+    max-width: 160%;
+} 
+
+.chagiga {
+    max-width: 160%;
+}
+
+.kindergarten {
+    max-width: 160%;
+}
+
+
+
+/*Cupcakes and Shabbos Treats*/
+.shabbos_treats {
+    max-width: 120%;
+    border-radius: 50%; 
+
+}
+
+.blue_shabbos_cake  {
+    max-width: 120%;
+}
+
+.flower_cupcakes {
+    max-width: 115%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+/*img {
+    max-width: 100%;
+    height: auto;
+}*/
+
+
+
+
+@media all and (min-width:480px) and (max-width: 768px) { 
+
+}
+
+
+@media all and (min-width:768px) and (max-width: 1600px) {
+
+   
+
+
+        body {
+        background-color: #FFFFF2;
+        background-image: url("images/decorativecupcakes.png");
+    }
+    
+    /*img {
+        max-width: 100%;
+        height: auto;
+    }*/
+    
+    /*start header*/ 
+    .logo {
+        max-width: 20%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 0px;
+        left: 35px;
+    }
+    
+    /*end header*/
+    
+    /*begin navbar*/
+    .navbar {
+        width: 73.5%;
+        margin: 0 auto;
+    }
+    
+    .nav-item {
+        padding: 2px;
+        padding-left: 5px;
+            
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+    } 
+    
+    /*end navbar*/
+    
+    .gallery1 {
+        /*width: 100%;*/
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+           
+    }
+    
+    .gallery1_a {
+        /*width: 100%;*/
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+           
+    }
+    
+    .gallery2 {
+        /*width: 100%;*/
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        top: 0px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .gallery2_a {
+        /*width: 100%;*/
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        top: 0px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    /*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
+    
+    .gallery3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .gallery4 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .gallery4_a {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 75px;
+    }
+    
+    
+    .gallery5 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .gallery6 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .gallery7 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .individual-picture {
+        max-width: 115%;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 50px;
+        background-color: #FFFFF2;
+       
+    }
+    
+    
+    .caption {
+        text-align: center;
+        
+    }
+    
+    /*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
+    .category_one   {
+        text-align: center;
+        position:relative;
+        left:30px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    }
+    
+    .category_two {
+        text-align: center;
+        position:relative;
+        left:30px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    }
+    
+    .category_three {
+        text-align: center;
+        position:relative;
+        left:30px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    }
+    
+    .category_four {
+        text-align: center;
+        position:relative;
+        left:30px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    
+    }
+    
+    .category_five {
+        text-align: center;
+        position:relative;
+        left:30px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    
+    }
+    
+    
+    .category_six {
+        text-align: center;
+        position:relative;
+        left:33px;
+        text-transform: uppercase;
+        padding-top: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.25em;
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /*.individual-picture  {
+    width: 25%;
+    }*/
+
+
+    .wedding {
+        max-width: 75%;
+    }
+
+    .flower {
+        max-width: 100%;
+    }
+    
+    .blue_anniversary_cake  {
+        max-width: 125%; 
+    }
+}
