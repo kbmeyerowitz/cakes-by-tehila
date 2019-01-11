@@ -246,6 +246,11 @@ body {
 
 /*styling individual images*/
 /*Bar and Bas Mitzvah*/
+
+.image3 {
+    max-width: 400px;
+    height: auto;
+}
 .torah_cake {
     max-width: 300%;
     position: relative;
