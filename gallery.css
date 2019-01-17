@@ -16,8 +16,8 @@
 }*/
 
 body {
-    background-color: #FFFFF2;
-    background-image: url("images/decorativecupcakes.png");
+    background-color:#428db2;
+    width: 100%;
 }
 
 /*img {
@@ -27,7 +27,7 @@ body {
 
 /*start header*/ 
 .logo {
-    max-width: 100%;
+    width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -41,7 +41,7 @@ body {
 
 /*begin navbar*/
 .navbar {
-	width: 73.5%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -61,8 +61,8 @@ body {
     /*width: 100%;*/
     margin-bottom: 20px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    border: 2px solid black;
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
@@ -75,6 +75,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: 2px solid black;
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
@@ -164,11 +165,10 @@ body {
 }
 
 .individual-picture {
-    max-width: 115%;
+    width: 400px;
     height: auto;
-    padding-top: 50px;
-    padding-left: 50px;
     background-color: #FFFFF2;
+    border: 3px solid red;
    
 }
 
@@ -246,6 +246,11 @@ body {
 
 /*styling individual images*/
 /*Bar and Bas Mitzvah*/
+
+.image3 {
+    max-width: 400px;
+    height: auto;
+}
 .torah_cake {
     max-width: 300%;
     position: relative;
