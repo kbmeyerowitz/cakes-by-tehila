@@ -1,442 +1,22 @@
-/* with bootstrap
 
-.card-title {
-    text-align: center;
-}
-
-.card-text {
-    text-align: left;
-}
-*/
 
 /*with Christina styling
         width: 100%;
         margin: 0 auto;
 }
 }*/
+@media all and (min-width:1100px) and (max-width:1600px) {
 
-body {
-    background-color:#428db2;
-    width: 100%;
-}
 
-/*img {
-    max-width: 100%;
-    height: auto;
-}*/
 
-/*start header*/ 
-.logo {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	position: relative;
-	top: 0px;
-	left: 35px;
-}
-
-/*end header*/
-
-/*begin navbar*/
-.navbar {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.nav-item {
-	padding: 2px;
-	padding-left: 5px;
-		
-}
-
-.navbar-nav {
-	margin: 0 auto;
-} 
-
-/*end navbar*/
-
-.gallery1 {
-    /*width: 100%;*/
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid black;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-       
-}
-
-.gallery1_a {
-    /*width: 100%;*/
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 2px solid black;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-       
-}
-
-.gallery2 {
-    /*width: 100%;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-    top: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.gallery2_a {
-    /*width: 100%;*/
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-    top: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-/*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
-
-.gallery3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.gallery4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.gallery4_a {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 75px;
-}
-
-
-.gallery5 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.gallery6 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.gallery7 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.individual-picture {
-    width: 400px;
-    height: auto;
-    background-color: #FFFFF2;
-    border: 3px solid red;
-   
-}
-
-
-.caption {
-    text-align: center;
-    
-}
-
-/*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
-.category_one   {
-    text-align: center;
-    position:relative;
-    left:30px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-}
-
-.category_two {
-    text-align: center;
-    position:relative;
-    left:30px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-}
-
-.category_three {
-    text-align: center;
-    position:relative;
-    left:30px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-}
-
-.category_four {
-    text-align: center;
-    position:relative;
-    left:30px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-
-}
-
-.category_five {
-    text-align: center;
-    position:relative;
-    left:30px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-
-}
-
-
-.category_six {
-    text-align: center;
-    position:relative;
-    left:33px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25em;
-
-}
-
-
-/*styling individual images*/
-/*Bar and Bas Mitzvah*/
-
-.image3 {
-    max-width: 400px;
-    height: auto;
-}
-.torah_cake {
-    max-width: 300%;
-    position: relative;
-    left: -50px;
-}
-
-.torah_cake_2 {
-    max-width: 120%;
-}
-
-.blue_sefarim {
-    max-width: 135%;
-    position: relative;
-    left: -15px;
-
-}
-
-.brown_sefarim {
-    max-width: 140%;
-}
-
-.gold_bat_mitzvah  {
-    max-width: 140%;
-}
-
-.crown {
-    max-width: 125%;
-
-}
-
-/*Birthday*/
-.bob  {
-    max-width: 135%;
-}
-
-.suzie  {
-    max-width: 135%;
-}
-
-.azaryah  {
-    max-width: 110%;
-}
-
-.spiderman2{
-    max-width: 120%;
-        
-}
-
-.car {
-    max-width: 165%;
-    position: relative;
-    left: -20px;
-
-}
-
-.sports {
-    max-width: 155%;
-
-}
-
-
-/*Wedding and Anniversary*/
-.wedding {
-    max-width: 150%;
-}
-
-.flower {
-    max-width: 120%;
-}
-
-.blue_anniversary_cake  {
-    max-width: 125%; 
-}
-
-
-
-
-/*Other Simchas*/
-.welcome_baby_girl   {
-    max-width: 120%;
-}
-
-.welcome_baby_boy  {
-    max-width: 125%;
-
-}
-
-.rabbi {
-   max-width: 135%;
-
-}
-
-
-/*And and ALl Occasion*/
-.barrel  {
-    max-width: 125%;
-}
-
-.bon_voyage  {
-    max-width: 135%;
-}
-
-.retirement_cake {
-    max-width: 105%;
-}
-
-
-/*School Celebrations*/
-.one_hundred_days  {
-    max-width: 160%;
-} 
-
-.chagiga {
-    max-width: 160%;
-}
-
-.kindergarten {
-    max-width: 160%;
-}
-
-
-
-/*Cupcakes and Shabbos Treats*/
-.shabbos_treats {
-    max-width: 120%;
-    border-radius: 50%; 
-
-}
-
-.blue_shabbos_cake  {
-    max-width: 120%;
-}
-
-.flower_cupcakes {
-    max-width: 115%;
-    height: auto;
-    border-radius: 50%;
-}
-
-
-
-/*img {
-    max-width: 100%;
-    height: auto;
-}*/
-
-
-
-
-@media all and (min-width:480px) and (max-width: 768px) { 
-
-}
-
-
-@media all and (min-width:768px) and (max-width: 1600px) {
-
-   
-
-
-        body {
-        background-color: #FFFFF2;
-        background-image: url("images/decorativecupcakes.png");
-    }
-    
-    /*img {
-        max-width: 100%;
-        height: auto;
-    }*/
-    
     /*start header*/ 
-    .logo {
-        max-width: 20%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 0px;
-        left: 35px;
+    .header {
+        background-image: url("images_final/background_light_goldenrod.png");
     }
-    
-    /*end header*/
     
     /*begin navbar*/
     .navbar {
-        width: 73.5%;
+        width: 100% /*73.5%*/;
         margin: 0 auto;
     }
     
@@ -449,221 +29,2167 @@ body {
     .navbar-nav {
         margin: 0 auto;
     } 
-    
+
     /*end navbar*/
+
+    .logo {
+            max-width: 25%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     
-    .gallery1 {
-        /*width: 100%;*/
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
+    .cover_image {
+            /*display: none;*/
+            position: relative;
+            /*top: -135px;*/
+            top: 25px;
+            max-width: 100%;
+            height: auto;
            
     }
-    
-    .gallery1_a {
-        /*width: 100%;*/
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-           
-    }
-    
-    .gallery2 {
-        /*width: 100%;*/
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-        top: 0px;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .gallery2_a {
-        /*width: 100%;*/
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-        top: 0px;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    /*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
-    
-    .gallery3 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .gallery4 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .gallery4_a {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 75px;
-    }
-    
-    
-    .gallery5 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .gallery6 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .gallery7 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .individual-picture {
-        max-width: 115%;
-        height: auto;
-        padding-top: 50px;
-        padding-left: 50px;
-        background-color: #FFFFF2;
+        
+    .custom {
+            position: absolute;
+            top: 170px;
+            left: 75px;
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing:2.5px;
+            text-shadow: 1px 1px gray;
+            max-width: 100%;
+            
+        }
+        
+    .line {
+            display: none;
+            position: relative;
+            top: 20px;
+            left: 75px;
+            width: 50%;
+            style: bold;
+            
+        }
+        
+    .deliciously {
+            position: absolute;
+            top: 170px;
+            right: 85px;            
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px gray;
+            max-width: 100%;
+        
+        
+        }
+        /*end header*/
+        
+        
+        
+              
+              
+        /*begin button located at bottom of page at Smartphone size*/
+        .btn {
+            position: relative;
+            top: 100px;
+            right: -120px;
+            background-color: darkblue;
+        }
+        
+        /*end button*/
+        
+        /*designing "See a Cake You Love?" near top of page*/
+        #top {
+            position: relative;
+            top: 40px;
+            left: 17px;
+            font-size: 1.85rem;
+            
+        }
+        
+        .for_more_info {
+            position: relative;
+            top: 50px;
+            font-family: 'Satisfy', cursive;
+            font-weight: bold;
+            text-align: center;
+            
+            /*font-family: 'Petit Formal Script', cursive;*/
+            
+        }
+        
+        .for_more_info_line {
+            position: relative;
+            top: 110px;
+            max-width: 50%;
+            margin: 0 auto;
+            
+        }
+
        
+            
+        .for_more_info_2 {
+            position: relative;
+            top: 100px;
+            text-align: center;
+            font-size: 2rem;
+            font-style: italic;
+            font-family: 'Ledger', serif;
+        }
+            
+        .for_more_info_3 {
+            position: relative;
+            top: 140px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Ledger', serif;
+        }
+        
+        
+        .gallery_line_1 {
+            position: relative;
+            top: 175px;
+        }
+
+        .gallery1 {
+            /*width: 100%;*/
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 75px;
+               
+        }
+        
+        .gallery1_a {
+            /*width: 100%;*/
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+               
+        }
+        
+        .gallery2 {
+            /*width: 100%;*/
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 50px;
+                
+        }
+        
+        .gallery2_a {
+            /*width: 100%;*/
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+        }
+        
+        /*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
+        
+        .gallery3 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-left: 100px;
+            
+        }
+
+        .gallery3_a {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 100px;
+            
+            
+        }
+        
+        .gallery4 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 120px;
+            
+           
+        }
+        
+        .gallery4_a {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+        
+        
+        .gallery5 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+        
+        .gallery6 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 100px;
+            
+        }
+        
+        .gallery7 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-left: 100px;
+            
+        }
+
+        .gallery8 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 60px;
+            
+        }
+
+        .image3  {
+            transition: transform .2s; /* Animation */
+            /*background-color: ivory;*/
+        }
+        
+        .image3:hover {
+            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }        
+        
+        .individual-picture {
+            max-width: 33%;
+            height: auto;    
+            margin-top: 50px;   
+        }
+        
+        .caption {
+            max-width: 100%;
+            margin-top: 10px;
+            font-style: italic;
+            font-family: 'Ledger', serif;
+        }   
+        
+        .image3 {
+            max-width: 75%; 
+            height: auto;
+            /*margin-left: 35px;*/
+        }
+
+        /*styling individual images*/
+        /*Bar and Bas Mitzvah*/
+        
+        
+        #torah {
+            max-width: 100%;
+            
+            
+        }
+        
+        #pastel {
+            max-width: 40%;
+            
+            
+        }
+
+        #white_torah {
+            max-width: 100%;
+        }
+
+        #blue_books {
+            max-width: 100%;
+        }
+        
+        #golden {
+            max-width: 85%;
+        }
+        
+        #colorful_flower {
+        
+        }
+        
+        #spiderman {
+            max-width: 100%;
+            
+        }
+        
+        #racing {
+            max-width: 80%;
+            position: relative;
+            
+        }
+
+        #sports {
+            margin-left: 80px;
+        }
+               
+        #bob {
+            max-width: 70%;
+        }
+
+        #suzie {
+            max-width: 80%;
+        }
+        
+        #azaryah {
+            max-width: 55%;
+            position: relative;
+            left: 30px;
+        }
+        
+        #baby_boy {
+            max-width: 100%;
+            /*margin-left: 50px;*/
+        }
+        
+        #annabelle {
+            max-width: 100%;
+        }
+
+        #rabbi {
+            max-width: 60%;
+        }
+        
+        #barrel {
+            max-width: 100%;
+        }
+        
+        #retirement {
+            max-width: 100%;
+        }
+        
+        #bon_voyage {
+            max-width: 70%;
+            margin-left: 50px;
+        }
+
+        #school {
+
+        }
+
+        #chagiga {
+
+        }
+
+        #kindergarten {
+
+        }
+
+        #kindergarten2 {
+            
+        }
+
+        #plated_cupcakes {
+            max-width: 50%;
+            margin-left: 120px;
+            border-radius: 50%;
+        }
+
+        #sunny_cupcakes {
+            border-radius: 50%;
+            max-width: 100%;
+        }
+        
+        #cupcakes_multi {
+            border-radius: 50%;
+        }
+
+        #boy_cupcakes {
+            margin-left:-15px;
+        }
+
+        #blue_cake {
+            max-width: 90%;
+        }
+
+        #pink_cake {
+            max-width: 90%;
+
+        }
+
+        #white_cake {
+            max-width: 90%;
+
+        }
+
+        /*styling individual captions*/
+        
+        #flower-colorful{
+            position: relative;
+            left: 55px;
+        }
+        
+        #wedding-cap{
+            position: relative;
+            left: 55px;
+            top: 75px;
+        }
+        
+        #flower-3{
+            position: relative;
+            left: 50px;
+        }
+        
+        #anniversary-2{
+            position: relative;
+            left: 40px;
+        }
+        
+        #floral-2{
+            position: relative;
+            left: 45px;
+        }
+        
+        #floral-3{
+            position: relative;
+            left: 50px;
+        }
+        
+        #floral-4{
+            position: relative;
+            left: 60px;
+        }
+        
+        #torah-1 {
+            position: relative;
+            left: -35px;
+        }
+        
+        #torah-2{
+            position: relative;
+            left: -85px;
+        }
+        
+        #torah-3{
+            position: relative;
+            left: 10px;
+        }
+        
+        #blue{
+            position: relative;
+            left: 5px;
+        }
+        
+        #brown  {
+            position: relative;
+            left: 55px;
+        }
+         
+        #crown {
+            position: relative;
+            left: 55px;
+        }
+        
+        #golden-bas {
+            position: relative;
+            left: 60px;
+        }
+
+        #floral1_caption {
+            position: relative;
+            left: 118px;
+        }
+        
+        #floral2_caption {
+            position: relative;
+            left: 95px;
+
+        }
+
+        #azaryah_caption {
+            position: relative;
+            left: 118px;
+            
+        }
+        #superhero_caption  {
+            position: relative;
+            
+            left: 20px;
+        }
+
+      #sports_caption  {
+          position: relative;
+          top: -30px;
+          left: 180px;
+      }
+        
+      #racing_caption {
+          position: relative;
+          left: 125px;
+      }
+
+      #baby_boy_caption {
+        position: relative;
+          left: 30px;
+      }
+
+      #annabelle_caption {
+        position: relative;
+        left: 30px;
+
+      }
+
+      #rabbi_caption {
+        position: relative;
+        left: 75px;
+      }
+
+      #barrel_caption {
+        position: relative;
+        left: 60px;
+
+      }
+
+      #bon_voyage_caption {
+        position: relative;
+        left: 175px;
+
+      }
+
+      #retirement_caption {
+        position: relative;
+        left: 70px;
+      }
+
+    #school_caption {
+        position: relative;
+        left: 130px;
+
     }
-    
-    
-    .caption {
-        text-align: center;
+
+    #chagiga_caption {
+        position: relative;
+        left: 70px;
+
+    }
+
+    #kindergarten_caption {
+        position: relative;
+        left: 70px;
+
+    }
+
+    #kindergarten2_caption {
+        position: relative;
+        left: 70px;
+        top:-20px;
+        
+    }
+
+    #plated_cupcakes_caption {
+        position: relative;
+        left: 155px;
+        top: 15px;
+        
+    }
+
+    #sunny_cupcakes_caption {
+        position: relative;
+        left: 30px;
         
     }
     
-    /*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
-    .category_one   {
+    #cupcakes_multi_caption {
+        position: relative;
+        left: 110px;
+        top: 20px;
+        
+    }
+
+    #boy_cupcakes_caption {
+        position: relative;
+        left: 70px;
+        
+    }
+
+    #tractor_caption {
+        position: relative;
+        left: 20px;
+        top: -20px;
+    }
+
+    #blue_cake_caption {
+        position: relative;
+        left: 90px;
+        top: 15px;
+    }
+
+    #pink_cake_caption {
+        position: relative;
+        left: 90px;
+        top: 15px;
+        
+    }
+
+    #white_cake_caption {
+        position: relative;
+        left: 80px;
+        top: 15px;
+
+    }
+             /*<div class="individual-picture">
+                <a href="./pricelist.html" target="_blank">
+            <img class="image3" src="images_final/yom-tov-bakery2.png" alt="cake decored with doughnuts" class="card-img-top"></a>
+            <div class="caption">"Kindergarten Graduates"</div>
+             </div>*/
+        
+        /*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
+        .category_one   {
+            text-align: center;
+            /*text-transform: uppercase;*/
+            padding-top: 175px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_two {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_three {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_four {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        .category_five {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        
+        .category_six {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        .category_seven {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+    .return_to_top  {
+        position: relative;
+        top: 125px;
         text-align: center;
-        position:relative;
-        left:30px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
+    }
+         
+    footer {
+        position: relative;
+        top: 150px;
+        text-align: center;
+    } 
+}
+
+
+
+@media all and (max-width: 320px) {
+    
+    body {
+        background-color:rgb(248, 248, 252);
+    }
+        
+    /*begin styling "header"*/
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
     }
     
+    .cover_image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .custom {
+        display:  none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-size: .5rem;
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        letter-spacing:2.5px;
+        text-shadow: 1px 1px gray;
+        
+    }
+    
+    .line {
+        display: none;
+        position: relative;
+        top: 20px;
+        left: 75px;
+        width: 50%;
+        style: bold;
+        
+    }
+    
+    .deliciously {
+        display: none;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px gray;
+    
+    }
+    
+    .for_more_info {
+        position: relative;
+        top: 25px;
+        font-family: 'Parisienne', cursive;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 1px gray;         
+    }
+    
+    .for_more_info_line {
+        position: relative;
+        top: 25px;
+        max-width: 50%;
+        margin: 0 auto;
+        
+    }
+    
+    .for_more_info_2 {
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-size: 1rem;
+        font-style: italic;
+    }
+    
+    .for_more_info_3 {
+        position: relative;
+        top: 35px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .gallery_line_1 {
+        position: relative;
+        top: 55px;
+    }
+    
+        .category_one {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+            position: relative;
+            top: 50px;
+        }
+    
+        .category_two {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+        
+            
+        .category_three {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+    
+        .category_four {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+        
+    
+        .category_five {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+    
+        
+        .category_six {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+        
+    
+        .category_seven {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.9rem;
+        }
+    
+    
+        .image3  {
+            transition: transform .2s; /* Animation */
+            /*background-color: ivory;*/
+        }
+        
+        .image3:hover {
+            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }        
+        
+        .individual-picture {
+            max-width: 90%;
+            height: auto;    
+            margin-top: 50px;   
+        }
+        
+        .caption {
+            max-width: 100%;
+            margin-top: 10px;
+            font-style: italic;
+            text-align: center;
+        }   
+    
+           
+        .image3 {
+            max-width: 90%; 
+            height: auto;
+            margin-left: 35px;
+        }
+        
+    /*start styling individual images*/
+    
+    #colorful_flower {
+        max-width: 90%;
+    }
+    
+    #three_tier_flower {
+        max-width: 80%;
+        margin-left: 50px;
+    }
+        
+    #pastel {
+        max-width: 65%;
+        margin-left: 70px;
+    }
+    
+    #two_tier_flower {
+        max-width: 80%;
+        margin-left: 50px;
+        
+    }
+    
+    #chocolate_sunflower {
+        max-width: 80%;
+        margin-left: 50px;
+    }
+    
+    #colorful_flower {
+        max-width: 80%;
+        margin-left: 50px;
+    }
+    
+    #four_tier {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    #azaryah {
+        max-width: 70%;
+        margin-left: 50px;
+    }
+    
+    #spiderman {
+        margin-left: 100px;
+        
+    }
+    
+    .gallery3 {
+    
+        margin-left: 25px;
+    }
+    
+    .gallery4 {
+        margin-left: 45px;    
+    }
+    
+    /*#rabbi is in gallery4 - I think this is an example of greater specificity in CSS overriding previous code*/
+    #rabbi {
+        margin-left: 0px;
+    }
+    
+    .gallery5 {
+        margin-left: 45px;
+    }
+    
+    #bon_voyage {
+        margin-left: 5px;
+    }
+    
+    
+    #sunny_cupcakes {
+        border-radius: 50%;
+        margin-left: 75px;
+    
+    }
+    
+    #plated_cupcakes {
+        border-radius: 50%;
+        max-width: 70%;
+        margin-left: 65px;
+    
+    }
+    
+    #cupcakes_multi {
+        border-radius: 50%;
+    }
+    
+    #tractor {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    
+    .return_to_top  {
+        position: relative;
+        top: 125px;
+        text-align: center;
+    }
+         
+    footer {
+        position: relative;
+        top: 150px;
+        text-align: center;
+    }
+    }
+    
+
+    @media all and (min-width: 360px) and (max-width: 374px) {   
+
+        body {
+            background-color:rgb(248, 248, 252);
+        }
+            
+        /*begin styling "header"*/
+        
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .cover_image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .custom {
+            display:  none;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            font-size: .5rem;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing:2.5px;
+            text-shadow: 1px 1px gray;
+            
+        }
+        
+        .line {
+            display: none;
+            position: relative;
+            top: 20px;
+            left: 75px;
+            width: 50%;
+            style: bold;
+            
+        }
+        
+        .deliciously {
+            display: none;
+            position: relative;
+            top: 0px;
+            right: 0px;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px gray;
+        
+        }
+        
+        .for_more_info {
+            position: relative;
+            top: 25px;
+            font-family: 'Parisienne', cursive;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 1px 1px gray;         
+        }
+        
+        .for_more_info_line {
+            position: relative;
+            top: 25px;
+            max-width: 50%;
+            margin: 0 auto;
+            
+        }
+        
+        .for_more_info_2 {
+            position: relative;
+            top: 25px;
+            text-align: center;
+            font-size: 1rem;
+            font-style: italic;
+        }
+        
+        .for_more_info_3 {
+            position: relative;
+            top: 35px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        .gallery_line_1 {
+            position: relative;
+            top: 55px;
+        }
+        
+            .category_one {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+                position: relative;
+                top: 50px;
+            }
+        
+            .category_two {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+                
+            .category_three {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+            .category_four {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+        
+            .category_five {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+            
+            .category_six {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+        
+            .category_seven {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+        
+            .image3  {
+                transition: transform .2s; /* Animation */
+                /*background-color: ivory;*/
+            }
+            
+            .image3:hover {
+                transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }        
+            
+            .individual-picture {
+                max-width: 90%;
+                height: auto;    
+                margin-top: 50px;   
+            }
+            
+            .caption {
+                max-width: 100%;
+                margin-top: 10px;
+                font-style: italic;
+                text-align: center;
+            }   
+        
+               
+            .image3 {
+                max-width: 90%; 
+                height: auto;
+                margin-left: 35px;
+            }
+            
+        /*start styling individual images*/
+        
+        #colorful_flower {
+            max-width: 90%;
+        }
+        
+        #three_tier_flower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+            
+        #pastel {
+            max-width: 65%;
+            margin-left: 70px;
+        }
+        
+        #two_tier_flower {
+            max-width: 80%;
+            margin-left: 50px;
+            
+        }
+        
+        #chocolate_sunflower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+        
+        #colorful_flower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+        
+        #four_tier {
+            max-width: 100%;
+            margin-left: 20px;
+        }
+        #azaryah {
+            max-width: 70%;
+            margin-left: 50px;
+        }
+        
+        #spiderman {
+            margin-left: 100px;
+            
+        }
+        
+        .gallery3 {
+        
+            margin-left: 25px;
+        }
+        
+        .gallery4 {
+            margin-left: 45px;    
+        }
+        
+        /*#rabbi is in gallery4 - I think this is an example of greater specificity in CSS overriding previous code*/
+        #rabbi {
+            margin-left: 0px;
+        }
+        
+        .gallery5 {
+            margin-left: 45px;
+        }
+        
+        #bon_voyage {
+            margin-left: 5px;
+        }
+        
+        
+        #sunny_cupcakes {
+            border-radius: 50%;
+            margin-left: 75px;
+        
+        }
+        
+        #plated_cupcakes {
+            border-radius: 50%;
+            max-width: 70%;
+            margin-left: 65px;
+        
+        }
+        
+        #cupcakes_multi {
+            border-radius: 50%;
+        }
+        
+        #tractor {
+            max-width: 100%;
+            margin-left: 20px;
+        }
+        
+        .return_to_top  {
+            position: relative;
+            top: 125px;
+            text-align: center;
+        }
+             
+        footer {
+            position: relative;
+            top: 150px;
+            text-align: center;
+        }
+        }
+
+
+
+
+    
+
+
+@media all and (min-width: 375px) and (max-width: 413px) {   
+
+body {
+    background-color:rgb(248, 248, 252);
+}
+    
+/*begin styling "header"*/
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.cover_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom {
+    display:  none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: .5rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    letter-spacing:2.5px;
+    text-shadow: 1px 1px gray;
+    
+}
+
+.line {
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 75px;
+    width: 50%;
+    style: bold;
+    
+}
+
+.deliciously {
+    display: none;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px gray;
+
+}
+
+.for_more_info {
+    position: relative;
+    top: 25px;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px gray;         
+}
+
+.for_more_info_line {
+    position: relative;
+    top: 25px;
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+
+.for_more_info_2 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.for_more_info_3 {
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.gallery_line_1 {
+    position: relative;
+    top: 55px;
+}
+
+    .category_one {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
+        position: relative;
+        top: 50px;
+    }
+
     .category_two {
         text-align: center;
-        position:relative;
-        left:30px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
     
+        
     .category_three {
         text-align: center;
-        position:relative;
-        left:30px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
-    
+
     .category_four {
         text-align: center;
-        position:relative;
-        left:30px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
-    
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
     
+
     .category_five {
         text-align: center;
-        position:relative;
-        left:30px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
-    
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
-    
+
     
     .category_six {
         text-align: center;
-        position:relative;
-        left:33px;
-        text-transform: uppercase;
-        padding-top: 75px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.25em;
-    
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
     
 
-
-
-
-
-
-
-
-
-
-
-
-    /*.individual-picture  {
-    width: 25%;
-    }*/
-
-
-    .wedding {
-        max-width: 75%;
+    .category_seven {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.9rem;
     }
 
-    .flower {
+
+    .image3  {
+        transition: transform .2s; /* Animation */
+        /*background-color: ivory;*/
+    }
+    
+    .image3:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }        
+    
+    .individual-picture {
+        max-width: 90%;
+        height: auto;    
+        margin-top: 50px;   
+    }
+    
+    .caption {
         max-width: 100%;
+        margin-top: 10px;
+        font-style: italic;
+        text-align: center;
+    }   
+
+       
+    .image3 {
+        max-width: 90%; 
+        height: auto;
+        margin-left: 35px;
     }
     
-    .blue_anniversary_cake  {
-        max-width: 125%; 
-    }
+/*start styling individual images*/
+
+#colorful_flower {
+    max-width: 90%;
 }
+
+#three_tier_flower {
+    max-width: 80%;
+    margin-left: 50px;
+}
+    
+#pastel {
+    max-width: 65%;
+    margin-left: 70px;
+}
+
+#two_tier_flower {
+    max-width: 80%;
+    margin-left: 50px;
+    
+}
+
+#chocolate_sunflower {
+    max-width: 80%;
+    margin-left: 50px;
+}
+
+#colorful_flower {
+    max-width: 80%;
+    margin-left: 50px;
+}
+
+#four_tier {
+    max-width: 100%;
+    margin-left: 20px;
+}
+#azaryah {
+    max-width: 70%;
+    margin-left: 50px;
+}
+
+#spiderman {
+    margin-left: 100px;
+    
+}
+
+.gallery3 {
+
+    margin-left: 25px;
+}
+
+.gallery4 {
+    margin-left: 45px;    
+}
+
+/*#rabbi is in gallery4 - I think this is an example of greater specificity in CSS overriding previous code*/
+#rabbi {
+    margin-left: 0px;
+}
+
+.gallery5 {
+    margin-left: 45px;
+}
+
+#bon_voyage {
+    margin-left: 5px;
+}
+
+
+#sunny_cupcakes {
+    border-radius: 50%;
+    margin-left: 75px;
+
+}
+
+#plated_cupcakes {
+    border-radius: 50%;
+    max-width: 70%;
+    margin-left: 65px;
+
+}
+
+#cupcakes_multi {
+    border-radius: 50%;
+}
+
+#tractor {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.return_to_top  {
+    position: relative;
+    top: 125px;
+    text-align: center;
+}
+     
+footer {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+}
+
+
+
+
+/*@media all and (max-width: 480px) { 
+.for_more_info {
+    font-size: 2em;
+    letter-spacing: 2.5px;
+    text-align: center;
+
+}
+
+.for_more_info_2  {
+
+}
+
+}*/
+
+
+/*start header*/ 
+/*.header {
+    background-image: url("threetierflowercroppedone/.png");
+}*/
+
+
+
+
+
+@media all and (min-width:414px) and (max-width: 767px) { 
+
+
+body {
+            background-color:rgb(248, 248, 252);
+        }
+            
+        /*begin styling "header"*/
+        
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .cover_image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .custom {
+            display:  none;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            font-size: .5rem;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing:2.5px;
+            text-shadow: 1px 1px gray;
+            
+        }
+        
+        .line {
+            display: none;
+            position: relative;
+            top: 20px;
+            left: 75px;
+            width: 50%;
+            style: bold;
+            
+        }
+        
+        .deliciously {
+            display: none;
+            position: relative;
+            top: 0px;
+            right: 0px;
+            text-align: center;
+            font-family: 'Parisienne', cursive;
+            letter-spacing: 3px;
+            text-shadow: 1px 1px gray;
+        
+        }
+        
+        .for_more_info {
+            position: relative;
+            top: 25px;
+            font-family: 'Parisienne', cursive;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 1px 1px gray;         
+        }
+        
+        .for_more_info_line {
+            position: relative;
+            top: 25px;
+            max-width: 50%;
+            margin: 0 auto;
+            
+        }
+        
+        .for_more_info_2 {
+            position: relative;
+            top: 25px;
+            text-align: center;
+            font-size: 1rem;
+            font-style: italic;
+        }
+        
+        .for_more_info_3 {
+            position: relative;
+            top: 35px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        .gallery_line_1 {
+            position: relative;
+            top: 55px;
+        }
+        
+            .category_one {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+                position: relative;
+                top: 50px;
+            }
+        
+            .category_two {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+                
+            .category_three {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+            .category_four {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+        
+            .category_five {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+            
+            .category_six {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+            
+        
+            .category_seven {
+                text-align: center;
+                font-family: 'Dancing Script', cursive;
+                font-size: 1.9rem;
+            }
+        
+        
+            .image3  {
+                transition: transform .2s; /* Animation */
+                /*background-color: ivory;*/
+            }
+            
+            .image3:hover {
+                transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }        
+            
+            .individual-picture {
+                max-width: 90%;
+                height: auto;    
+                margin-top: 50px;   
+            }
+            
+            .caption {
+                max-width: 100%;
+                margin-top: 10px;
+                font-style: italic;
+                text-align: center;
+            }   
+        
+               
+            .image3 {
+                max-width: 90%; 
+                height: auto;
+                margin-left: 35px;
+            }
+            
+        /*start styling individual images*/
+        
+        #colorful_flower {
+            max-width: 90%;
+        }
+        
+        #three_tier_flower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+            
+        #pastel {
+            max-width: 65%;
+            margin-left: 70px;
+        }
+        
+        #two_tier_flower {
+            max-width: 80%;
+            margin-left: 50px;
+            
+        }
+        
+        #chocolate_sunflower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+        
+        #colorful_flower {
+            max-width: 80%;
+            margin-left: 50px;
+        }
+        
+        #four_tier {
+            max-width: 100%;
+            margin-left: 20px;
+        }
+        #azaryah {
+            max-width: 70%;
+            margin-left: 50px;
+        }
+        
+        #spiderman {
+            margin-left: 100px;
+            
+        }
+        
+        .gallery3 {
+        
+            margin-left: 25px;
+        }
+        
+        .gallery4 {
+            margin-left: 45px;    
+        }
+        
+        /*#rabbi is in gallery4 - I think this is an example of greater specificity in CSS overriding previous code*/
+        #rabbi {
+            margin-left: 0px;
+        }
+        
+        .gallery5 {
+            margin-left: 45px;
+        }
+        
+        #bon_voyage {
+            margin-left: 5px;
+        }
+        
+        
+        #sunny_cupcakes {
+            border-radius: 50%;
+            margin-left: 75px;
+        
+        }
+        
+        #plated_cupcakes {
+            border-radius: 50%;
+            max-width: 70%;
+            margin-left: 65px;
+        
+        }
+        
+        #cupcakes_multi {
+            border-radius: 50%;
+        }
+        
+        #tractor {
+            max-width: 100%;
+            margin-left: 20px;
+        }
+        
+        .return_to_top  {
+            position: relative;
+            top: 125px;
+            text-align: center;
+        }
+             
+        footer {
+            position: relative;
+            top: 150px;
+            text-align: center;
+        }
+        }
+
+        /* need to work on these last two viewports
+        ipad 768                     needs tweaking
+        ipadpro 1024                 needs major tweaking*/
+
+        @media all and (min-width:768px) and (max-width: 1024px) { 
+            
+             /*start header*/ 
+    .header {
+        background-image: url("images_final/background_light_goldenrod.png");
+    }
+    
+    /*begin navbar*/
+    .navbar {
+        width: 100% /*73.5%*/;
+        margin: 0 auto;
+    }
+    
+    .nav-item {
+        padding: 2px;
+        padding-left: 5px;
+            
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+    } 
+
+    /*end navbar*/
+    .logo {
+        max-width: 25%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.cover_image {
+        /*display: none;*/
+        position: relative;
+        /*top: -135px;*/
+        top: 25px;
+        max-width: 100%;
+        height: auto;
+       
+}
+
+.custom h1{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    letter-spacing:2.5px;
+    text-shadow: 1px 1px gray;
+    
+}
+
+.line {
+    display: none;
+    position: relative;
+    top: 420px;
+    left: 75px;
+    width: 50%;
+    style: bold;
+    
+}
+
+.deliciously h1{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px gray;
+}
+
+.for_more_info {
+    position: relative;
+    top: 50px;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    text-align: center;
+    
+    /*font-family: 'Petit Formal Script', cursive;*/
+    
+}
+
+.for_more_info_line {
+    position: relative;
+    top: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+
+   
+.for_more_info_2 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+    
+.for_more_info_3 {
+    position: relative;
+    top: 140px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.gallery_line_1 {
+    position: relative;
+    top: 175px;
+}
+
+
+            .image3  {
+                transition: transform .2s; /* Animation */
+                /*background-color: ivory;*/
+            }
+            
+            .image3:hover {
+                transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            }        
+            
+
+            .gallery1 {
+                /*width: 100%;*/
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 75px;                   
+            }
+            
+            .gallery1_a {
+                /*width: 100%;*/
+                
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;                        
+                   
+            }
+            
+            .gallery2 {
+                /*width: 100%;*/
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 50px;                    
+            }
+            
+            .gallery2_a {
+                /*width: 100%;*/
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;               
+                
+            }
+            
+            /*So gallery1/2 would need a media query that sets width to what you want.. and then indiv picture would be 100%*/
+            
+            .gallery3 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 100px;
+                
+            }
+    
+            .gallery3_a {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 100px;                
+                
+            }
+            
+            .gallery4 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 120px;
+                
+               
+            }
+            
+            .gallery4_a {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                
+            }
+            
+            
+            .gallery5 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                
+            }
+            
+            .gallery6 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 100px;
+                
+            }
+            
+            .gallery7 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 100px;
+                
+            }
+    
+            .gallery8 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-top: 60px;
+                
+            }
+
+            .individual-picture {
+                max-width: 33%;
+                height: auto;    
+                margin-top: 50px;   
+            }
+            
+            .caption {
+                max-width: 100%;
+                margin-top: 10px;
+                font-style: italic;
+                text-align: center;
+                
+            }   
+                       
+            .image3 {
+                max-width: 75%; 
+                height: auto;
+                
+            }
+
+            /*different cake "genres" organized based on occasion;ideally come in groups of 3 images each*/
+        .category_one   {
+            text-align: center;
+            /*text-transform: uppercase;*/
+            padding-top: 175px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_two {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_three {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        }
+        
+        .category_four {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        .category_five {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        
+        .category_six {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+        .category_seven {
+            text-align: center;
+            
+            padding-top: 75px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.75rem;
+        
+        }
+        
+    .return_to_top  {
+        position: relative;
+        top: 125px;
+        text-align: center;
+    }
+         
+    footer {
+        position: relative;
+        top: 150px;
+        text-align: center;
+    } 
+}
+        

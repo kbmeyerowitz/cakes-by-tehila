@@ -1,0 +1,614 @@
+
+
+@media all and (min-width:1100px) and (max-width:1600px) {
+	body {
+		background-image: url("images_final/background_cupcakes_two.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color:  ivory;
+		
+	}
+
+.main_content {
+	position: relative;
+	top: 200px;
+}
+
+.cover_image {
+	display: none;
+}
+
+.customize {
+	
+	font-family: 'Ledger', serif;
+	/*font-family: 'Parisienne', cursive;*/
+	font-size: 2.5rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 175px;
+	left: 0px;
+	
+}	
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	
+	font-family: 'Ledger', serif;
+	font-size: 2.7rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 200px;
+
+}
+
+	/*img {
+		width: 25%;
+		height: auto;
+		/*border-radius: 50%;
+		margin: 25px;
+	}*/
+
+.card {
+	margin-left: 40px;
+	padding-top: 20px;
+	position: relative;
+	top: 300px;
+	
+}
+
+.card-title {
+	
+}
+
+.container {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	
+    
+}
+
+/*styling individual cards*/
+.card-title {
+	
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+#white-shabbos {
+	position: relative;
+	top: -110px;
+}
+
+#anniversary {
+	position: relative;
+	top: -50px;
+}
+	/*begin navbar*/
+	.navbar {
+		width: 100%;
+		margin: 0 auto;
+	
+	}
+	
+	.nav-item {
+		padding: 2px;
+		margin-right: 25px;
+		font-size: 1.2em;
+			
+	}
+	
+	.navbar-nav {
+		margin: 0 auto;
+		/*background-color: goldenrod;*/
+		padding: 5px 5px;
+	} 
+	
+	ul {
+		display: flex;
+		
+		
+	}
+	
+	li {
+		list-style: none;
+	}
+	
+	
+	#telephone {
+	
+		transition: transform .2s; /* Animation */
+		background-color: white;
+		position: relative;
+		top: 0px;
+		left: 30px;
+		}
+		
+	#telephone:hover {
+			transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+		
+		}
+	/*end navbar*/
+	
+	
+	/*start header*/ 
+	.logo {
+	
+		max-width: 15%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 20px;
+		z-index: 1;
+		
+	}
+	
+	
+	
+.additional_info  {
+	max-width: 100%;
+	position: relative;
+	top: 400px;
+	left: 250px;
+	font-family: 'Ledger', serif;
+}
+	
+	
+.return_to_top {
+	display: none;
+	text-align: center;
+	position: relative;
+	top: -400px;
+			
+			
+}
+		
+.line7 {
+	display: none;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 500px;
+}
+		
+footer {
+	text-align: center;
+	position: relative;
+	top: 550px;
+	background-color: rgb(151, 151, 231);
+	padding: 20px;
+	color: white
+	
+}
+		
+	}
+ 
+
+@media all and (max-width: 320px) {
+    
+    body {
+        background-color:rgb(248, 248, 252);
+	}
+	
+.logo {
+		max-width: 100%;
+		height: auto;
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+	.customize {
+		font-family: 'Ledger', serif;
+		/*font-family: 'Parisienne', cursive;*/
+		font-size: 1rem;
+		font-style: italic;
+		text-align: center;
+		position: relative;
+		top: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+	
+	.line {
+		max-width: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 190px;
+	}
+	
+	.specific {
+		display: none;
+		
+	
+	}
+
+	.card {
+		margin-top: 50px;
+	}
+
+	.card-title {
+	
+		font-family: 'Parisienne', cursive;
+		font-size: 2.5rem;
+	
+	}
+	
+	.card-text {
+		font-family: 'Ledger', serif;
+	
+	}
+	
+	.list-group-item {
+		font-family: 'Ledger', serif;
+	
+	}
+
+	.israel {
+		padding-bottom: 10px;
+    
+	}
+	
+.additional_info {
+	font-family: 'Ledger', serif;
+	font-size: 1rem;
+	padding-top: 25px;
+}
+
+.return_to_top   {
+	position: relative; 
+	top: 50px;
+	text-align: center;
+}
+
+footer {
+	position: relative;
+	top: 125px;
+	text-align: center;
+}
+}
+
+
+    @media all and (min-width: 360px) and (max-width: 374px) {   
+
+		body {
+			background-color:rgb(248, 248, 252);
+		}
+			
+	.cover_image {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.customize {
+		font-family: 'Ledger', serif;
+		/*font-family: 'Parisienne', cursive;*/
+		font-size: 1rem;
+		font-style: italic;
+		text-align: center;
+		position: relative;
+		top: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+	
+	.line {
+		max-width: 50%;
+		margin: 0 auto;
+		position: relative;
+		top: 190px;
+	}
+	
+	.specific {
+		display: none;
+		
+	
+	}
+
+
+		.card-title {
+		
+			font-family: 'Parisienne', cursive;
+			font-size: 2.5rem;
+		
+		}
+		
+		.card-text {
+			font-family: 'Ledger', serif;
+		
+		}
+		
+		.list-group-item {
+			font-family: 'Ledger', serif;
+		
+		}
+	
+		.israel {
+			padding-bottom: 10px;
+		
+		}
+		
+		.logo {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+
+@media all and (min-width: 375px) and (max-width: 413px) {   
+
+body {
+    background-color:rgb(248, 248, 252);
+}
+
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+.customize {
+	font-family: 'Ledger', serif;
+	/*font-family: 'Parisienne', cursive;*/
+	font-size: 1rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	display: none;
+	
+
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+	margin-left: 50px;
+	margin-top: 18px;
+}
+
+.card-title {
+
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+.israel {
+	padding-bottom: 10px;
+
+}
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	font-family: 'Ledger', serif;
+	font-size: 1rem;
+}
+
+}
+
+@media all and (min-width:414px) and (max-width: 767px) { 
+
+
+body {
+        background-color:rgb(248, 248, 252);
+}
+	
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+
+.customize {
+	font-family: 'Ledger', serif;
+	/*font-family: 'Parisienne', cursive;*/
+	font-size: 1rem;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}	
+
+.line {
+	max-width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+
+.specific {
+	display: none;
+	
+
+}
+
+.card {
+	margin-left: 50px;
+	
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}      
+
+.card {
+	margin-left: 50px;
+	margin-top: 18px;
+}
+
+.card-title {
+
+	font-family: 'Parisienne', cursive;
+	font-size: 2.5rem;
+
+}
+
+.card-text {
+	font-family: 'Ledger', serif;
+
+}
+
+.list-group-item {
+	font-family: 'Ledger', serif;
+
+}
+
+.israel {
+	padding-bottom: 10px;
+
+}
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	font-family: 'Ledger', serif;
+	font-size: 1.5rem;
+}
+        
+}
+
+    @media all and (min-width:768px) and (max-width: 1024px) { 
+
+		/*start header*/ 
+body {
+	background-color: ivory;
+}
+
+            
+.cover_image {
+	max-width: 100%;
+	height: auto;
+}
+		
+.customize {
+			font-family: 'Ledger', serif;
+			/*font-family: 'Parisienne', cursive;*/
+			font-size: 1rem;
+			font-style: italic;
+			text-align: center;
+			position: relative;
+			top: 40px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}	
+		
+		.line {
+			max-width: 50%;
+			margin: 0 auto;
+			position: relative;
+			top: 190px;
+		}
+		
+		.specific {
+			display: none;
+			
+		
+		}
+    
+    /*begin navbar*/
+    .navbar {
+        width: 100% /*73.5%*/;
+        margin: 0 auto;
+    }
+    
+    .nav-item {
+        padding: 2px;
+        padding-left: 5px;
+            
+    }
+    
+    .navbar-nav {
+        margin: 0 auto;
+    } 
+
+    /*end navbar*/
+    .logo {
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.additional_info  {
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	font-family: 'Ledger', serif;
+	font-size: 1.5rem;
+}
+
+
+.return_to_top {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+footer {
+	text-align: center;
+	
+
+}
+
+}
+
+
+
+
+
